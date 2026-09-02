@@ -117,32 +117,16 @@ EMMO, BattINFO and others.
 
 ## Technical stack
 
-**Programming:** Python • C/C++ • C# • Java • JavaScript/TypeScript • PHP
-**Semantic web:** RDF • OWL • SPARQL • JSON-LD • SHACL • triple stores • ontology engineering
-**AI:** LLM integration • agents • MCP • A2A • RAG • tool calling • local and hosted inference
-**Backend:** FastAPI • REST • PostgREST • OAuth/OIDC • Keycloak
-**Data:** PostgreSQL • TimescaleDB • graph databases • time series • pandas/NumPy/SciPy
-**Cloud and DevOps:** Docker • Kubernetes • Terraform • Ansible • Azure • CI/CD • release automation
-**Hardware and lab:** OPC-UA • IoT • embedded systems • PCB design • instrument integration • lab automation
+- **Programming:** Python • C/C++ • C# • Java • JavaScript/TypeScript • PHP
+- **Semantic web:** RDF • OWL • SPARQL • JSON-LD • SHACL • triple stores • ontology engineering
+- **AI:** LLM integration • agents • MCP • A2A • RAG • tool calling • local and hosted inference
+- **Backend:** FastAPI • REST • PostgREST • OAuth/OIDC • Keycloak
+- **Data:** PostgreSQL • TimescaleDB • graph databases • time series • pandas/NumPy/SciPy
+- **Cloud and DevOps:** Docker • Kubernetes • Terraform • Ansible • Azure • CI/CD • release automation
+- **Hardware and lab:** OPC-UA • IoT • embedded systems • PCB design • instrument integration • lab automation
 
 Client work covers industrial data pipelines, plant and laboratory automation,
 measurement data analysis and cloud infrastructure. Those repositories are private.
-
----
-
-## Freelance availability
-
-My current project ends in September 2026. From then on I have capacity for new
-freelance work, remote or hybrid, contracting personally.
-
-Particularly interested in:
-
-- Ontology and knowledge-graph design, data governance and semantic data models
-- Research data infrastructure, ELN and LIMS integration, scientific data platforms
-- LLM agents grounded in structured data
-- Measurement and process data: pipelines, analysis, instrument connectivity
-
-Reach me at [data-info-knowledge.de](https://data-info-knowledge.de).
 
 ---
 
@@ -162,6 +146,6 @@ AI in scientific research.
 
 ## Contact
 
-Open for research collaborations in materials informatics, consulting on semantic
-technologies and dataspaces, guest lectures and workshops on scientific
-digitalisation, and open source contributions.
+Open for research collaborations in materials informatics, freelance engineering
+engagements, consulting on semantic technologies and dataspaces, guest lectures and
+workshops on scientific digitalisation, and open source contributions.
