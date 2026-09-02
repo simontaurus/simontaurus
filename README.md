@@ -28,7 +28,7 @@ production code from embedded firmware up to distributed web platforms.
 ### Selected achievements
 
 - **Principal Investigator** in multi-million Euro research projects (50M+ EUR total
-  funding since 2019, 3.5M+ EUR personal share)
+  funding since 2019, 5M+ EUR personal share)
 - **15+ peer-reviewed publications** (*Advanced Materials*, *Advanced Energy Materials*
   and others)
 - **3 patents** in sensor systems and flexible electronics
