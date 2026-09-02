@@ -1,64 +1,104 @@
 # Dr. Simon Stier
 
-**Head of Digital Transformation** at Fraunhofer ISC & **Fullstack Software Freelancer**
-🌍 Würzburg, Germany
+**Head of Digital Transformation** at Fraunhofer ISC and **freelance software engineer**
+Würzburg, Germany
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--0410--3616-green.svg)](https://orcid.org/0000-0003-0410-3616)
 [![Website](https://img.shields.io/badge/Website-data--info--knowledge.de-blue.svg)](https://data-info-knowledge.de)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-simon--stier-blue.svg)](https://www.linkedin.com/in/simon-stier-9649a71b8/)
+
 ---
 
-## 👨‍🔬 About Me
+## About
 
-I'm bridging the gap between materials science and digital transformation, specializing in **materials informatics**, **semantic data integration**, and **AI-driven materials discovery**. With dual expertise in Computer Science and Functional Materials, I lead research initiatives that accelerate materials R&D through innovative digital workflows and FAIR data principles.
+I work where natural science meets software engineering: turning scientific and
+industrial data into machine-interpretable form, and building the platforms,
+ontologies and agents that run on it. Dual background in Computer Science and
+Functional Materials, doctorate in natural science, and fifteen years of writing
+production code from embedded firmware up to distributed web platforms.
 
-### 🎯 Research Focus
-- **Materials Acceleration Platforms (MAPs)** for accelerated discovery and deployment
-- **Semantic technologies** and knowledge graphs for scientific data integration  
-- **AI-powered workflows** for experimental and computational materials science
-- **Digital transformation** of laboratory processes and manufacturing
-- **Materials research** digitalization and **lifecycle assessment** integration
+### Focus
 
-### 🏆 Key Achievements
-- **Principal Investigator** in multi-million Euro research projects (€50M+ total funding since 2019, €3.5M+ personal share)
-- **15+ peer-reviewed publications** (*Advanced Materials*, *Advanced Energy Materials*, etc.)
+- Ontologies, knowledge graphs and schema design for scientific and industrial data
+- Semantic lab platforms: ELN and LIMS, research data management, FAIR principles
+- Laboratory and plant automation: instrument integration, OPC-UA, time series
+- LLM agents grounded in knowledge graphs rather than in free text alone
+- Interoperability and dataspaces, standards and specification work
+
+### Selected achievements
+
+- **Principal Investigator** in multi-million Euro research projects (50M+ EUR total
+  funding since 2019, 3.5M+ EUR personal share)
+- **15+ peer-reviewed publications** (*Advanced Materials*, *Advanced Energy Materials*
+  and others)
 - **3 patents** in sensor systems and flexible electronics
-- **50+ contributioins, invited talks and workshops** at international conferences and symposiums
+- **50+ contributions, invited talks and workshops** at international conferences
+- Editor of an open specification with a persistent `w3id.org` namespace and
+  reference implementations in three languages
 
 ---
 
-## 🛠️ Open Source Projects
+## Open source
 
-### 🧪 [OpenSemanticLab (OSL)](https://github.com/OpenSemanticLab)
-*Semantic lab platform combining ELN/LIMS functionality with knowledge graphs*
-- Full-stack solution for FAIR scientific data management
+### [OpenSemanticLab (OSL)](https://github.com/OpenSemanticLab)
+
+Semantic laboratory platform combining ELN and LIMS functionality with a knowledge graph.
+
+- Full-stack solution for FAIR scientific data management, in production since 2022
 - Triple store integration with automated workflow execution
+- Typed Python API generated from wiki-hosted schemas ([`osw-python`](https://github.com/OpenSemanticLab/osw-python), PyPI)
+- Eleven MediaWiki extensions: schema-driven form engine, SVG, spreadsheet and
+  molecule editors, HDF5 media handling, RDF export, in-browser notebooks
 - Adoption in 15+ research projects and industry cooperations
-- ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white) ![Semantic Web](https://img.shields.io/badge/-RDF/OWL-FF6B35?logo=w3c&logoColor=white)
 
-### 🔗 [Object-Oriented Linked Data (OO-LD)](https://github.com/oo-ld)
-*Schema framework bridging object-oriented programming with semantic web technologies*
-- JSON-LD + JSON-Schema based approach for scientific data modeling
-- Python package for seamless RDF integration in scientific workflows  
-- Enables bidirectional mapping between code objects and knowledge graphs
-- ![JSON-LD](https://img.shields.io/badge/-JSON--LD-326CE5?logo=json&logoColor=white) ![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?logo=pydantic&logoColor=white)
+### [Object-Oriented Linked Data (OO-LD)](https://github.com/OO-LD)
 
-### ⚙️ [Abstract Workflow Language (AWL)](https://github.com/OpenSemanticWorld/abstract-workflow-language)
-*Executable workflow descriptions with built-in provenance and FAIR principles*
-- Language-agnostic workflow specification with semantic annotations
-- Bidirectional RDF mapping for workflow provenance and reproducibility
-- Integration with computational materials science platforms
+A document that is simultaneously a valid JSON Schema and a JSON-LD context.
 
-### 🧠 [General Process Ontology](https://github.com/General-Process-Ontology/ontology)  
-*Standardized vocabulary for describing scientific and manufacturing processes*
-- OWL-based ontology for cross-domain process modeling
-- Foundation for interoperable materials science data spaces
+- [Specification](https://github.com/OO-LD/oold-schema) in W3C style with a normative
+  rule catalogue, published under `w3id.org/oo-ld`
+- Reference implementations in [Python](https://github.com/OO-LD/oold-python),
+  JavaScript and PHP, held in conformance parity by CI
+- Bidirectional mapping between code objects, JSON documents and knowledge graphs
+- Funded by the German PrototypeFund
+
+### Ontologies
+
+- [**General Process Ontology (GPO)**](https://github.com/General-Process-Ontology/ontology):
+  cross-domain vocabulary for scientific and manufacturing processes, `w3id.org/gpo`
+- [**Battery Value Chain Ontology (BVCO)**](https://github.com/Battery-Value-Chain-Ontology/ontology):
+  battery process terminology, built on EMMO
+- Co-author of [PMDco](https://github.com/materialdigital/core-ontology), contributor
+  to [EMMO](https://github.com/emmo-repo/EMMO) and [BattINFO](https://github.com/BIG-MAP/BattINFO)
+
+### [Abstract Workflow Language (AWL)](https://github.com/OO-LD/awl-schema)
+
+Executable workflow descriptions with built-in provenance.
+
+- Round-trips Python code to JSON-LD and back, so workflows become queryable RDF
+- [Python implementation](https://github.com/OO-LD/awl-python) with a human-in-the-loop module
+
+### [Semos Agentura](https://github.com/semos-org/semos-agentura)
+
+Modular multi-agent system on the Model Context Protocol (MCP) and Agent-to-Agent (A2A).
+
+- Provider-agnostic agentic loop, tool-call validation, document and file agents
+- Open reference implementation, Apache 2.0
+
+### Upstream contributions
+
+Merged pull requests to [pyld](https://github.com/digitalbazaar/pyld),
+[datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator),
+[w3id.org](https://github.com/perma-id/w3id.org) (including its redirect test suite),
+[SemanticMediaWiki](https://github.com/SemanticMediaWiki/SemanticMediaWiki),
+MediaWiki core, [The ELN File Format](https://github.com/TheELNConsortium/TheELNFileFormat),
+EMMO, BattINFO and others.
 
 ---
 
-## 📊 Research Impact
+## Research impact
 
-### 📈 Recent Publications
+### Recent publications
 
 | Year | Journal | Title | DOI |
 |------|---------|-------|-----|
@@ -67,46 +107,61 @@ I'm bridging the gap between materials science and digital transformation, speci
 | 2025 | *ChemSusChem* | Semantic resources for managing knowledge in battery research | [10.1002/cssc.202500458](https://doi.org/10.1002/cssc.202500458) |
 | 2024 | *Energy Technology* | Ontology-based battery production dataspace and AI-empowered analytics | [10.1002/ente.202301305](https://doi.org/10.1002/ente.202301305) |
 
-### 🏅 Leadership Roles
+### Leadership roles
+
 - **Fraunhofer ISC**: Head of research group "Digital Transformation"
-- **NFDI**: Principal Investigator in FairMat II & MatWerk II (€21M+ projects)
-- **EMMC**: Co-Chair, Task Area Digitalisation & Interoperability
-
-
----
-
-## 💼 Technical Stack
-
-**Programming:** Python • C/C++ • C# • Java • JavaScript  
-**Cloud & DevOps:** Docker • Kubernetes • CI/CD • Microservices  
-**Semantic Web:** RDF • OWL • JSON-LD • SPARQL • Triple Stores  
-**AI/ML:** LLMs • RAG • Scientific ML Pipelines  
-**Hardware:** IoT • Embedded Systems • PCB Design • OPC-UA  • Robotics
-**Databases:** Graph DBs • Time Series • SQL/NoSQL  
+- **NFDI**: Principal Investigator in FairMat II and MatWerk II (21M+ EUR projects)
+- **EMMC**: Co-Chair, Task Area Digitalisation and Interoperability
 
 ---
 
-## 🤝 Collaboration & Speaking
+## Technical stack
 
-I'm passionate about **open science** and **interdisciplinary collaboration**. I regularly speak at international conferences about materials digitalization, semantic technologies, and AI in scientific research.
+**Programming:** Python • C/C++ • C# • Java • JavaScript/TypeScript • PHP
+**Semantic web:** RDF • OWL • SPARQL • JSON-LD • SHACL • triple stores • ontology engineering
+**AI:** LLM integration • agents • MCP • A2A • RAG • tool calling • local and hosted inference
+**Backend:** FastAPI • REST • PostgREST • OAuth/OIDC • Keycloak
+**Data:** PostgreSQL • TimescaleDB • graph databases • time series • pandas/NumPy/SciPy
+**Cloud and DevOps:** Docker • Kubernetes • Terraform • Ansible • Azure • CI/CD • release automation
+**Hardware and lab:** OPC-UA • IoT • embedded systems • PCB design • instrument integration • lab automation
 
-**Recent Keynotes & Invited Talks:**
-- 🎙️ **MRS Fall Meeting 2024** (Boston) - Materials Acceleration Platforms
-- 🎙️ **E-MRS 2025** (Strasbourg) - Object-Oriented Linked Data for Materials Science  
-- 🎙️ **openLCA Conference 2025** (Berlin) - Integrating Sustainability from the Start
-
----
-
-## 📬 Let's Connect
-
-I'm always interested in collaborating on projects that advance materials science through digital innovation. Whether you're working on semantic data integration, scientific workflow automation, or AI for materials discovery - let's build something impactful together!
-
-**Open for:**
-- 🤝 Research collaborations in materials informatics
-- 💡 Consulting on semantic technologies and data spaces
-- 🎓 Guest lectures and workshops on scientific digitalization
-- 🔧 Open source contributions and community building
+Client work covers industrial data pipelines, plant and laboratory automation,
+measurement data analysis and cloud infrastructure. Those repositories are private.
 
 ---
 
-*"Accelerating research through semantic technologies and AI-driven workflows"*
+## Freelance availability
+
+My current project ends in September 2026. From then on I have capacity for new
+freelance work, remote or hybrid, contracting personally.
+
+Particularly interested in:
+
+- Ontology and knowledge-graph design, data governance and semantic data models
+- Research data infrastructure, ELN and LIMS integration, scientific data platforms
+- LLM agents grounded in structured data
+- Measurement and process data: pipelines, analysis, instrument connectivity
+
+Reach me at [data-info-knowledge.de](https://data-info-knowledge.de).
+
+---
+
+## Collaboration and speaking
+
+I care about open science and interdisciplinary collaboration, and speak regularly
+at international conferences on materials digitalisation, semantic technologies and
+AI in scientific research.
+
+**Recent keynotes and invited talks:**
+
+- **MRS Fall Meeting 2024** (Boston): Materials Acceleration Platforms
+- **E-MRS 2025** (Strasbourg): Object-Oriented Linked Data for Materials Science
+- **openLCA Conference 2025** (Berlin): Integrating Sustainability from the Start
+
+---
+
+## Contact
+
+Open for research collaborations in materials informatics, consulting on semantic
+technologies and dataspaces, guest lectures and workshops on scientific
+digitalisation, and open source contributions.
