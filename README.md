@@ -65,7 +65,7 @@ A document that is simultaneously a valid JSON Schema and a JSON-LD context.
 ### Ontologies
 
 - [**General Process Ontology (GPO)**](https://github.com/General-Process-Ontology/ontology):
-  cross-domain vocabulary for scientific and manufacturing processes, `w3id.org/gpo`
+  cross-domain vocabulary for scientific and manufacturing processes, `gpo.ontology.link`
 - [**Battery Value Chain Ontology (BVCO)**](https://github.com/Battery-Value-Chain-Ontology/ontology):
   battery process terminology, built on EMMO
 - Co-author of [PMDco](https://github.com/materialdigital/core-ontology), contributor
@@ -88,8 +88,8 @@ Modular multi-agent system on the Model Context Protocol (MCP) and Agent-to-Agen
 ### Upstream contributions
 
 Merged pull requests to [pyld](https://github.com/digitalbazaar/pyld),
-[datamodel-code-generator](https://github.com/koxudaxi/datamodel-code-generator),
-[w3id.org](https://github.com/perma-id/w3id.org) (including its redirect test suite),
+[datamodel-code-generator](https://github.com/datamodel-code-generator/datamodel-code-generator),
+[w3id.org](https://github.com/perma-id/w3id.org),
 [SemanticMediaWiki](https://github.com/SemanticMediaWiki/SemanticMediaWiki),
 MediaWiki core, [The ELN File Format](https://github.com/TheELNConsortium/TheELNFileFormat),
 EMMO, BattINFO and others.
